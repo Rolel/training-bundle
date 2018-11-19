@@ -41,4 +41,13 @@ class LogoDataCollector implements DataCollectorInterface
     {
         return $this->trainingMode;
     }
+    
+    /**
+     * @return bool
+     */
+    public function reset()
+    {
+        
+    }
+    
 }
